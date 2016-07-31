@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "header.html" . }}
+<body>
+       <a href="/">
+    <header>
+        <h1>Valiant Ghost</h1>
+    </header></a> 
+     {{ partial "sidebar.html" . }}
+    <article>
+  {{ range first 30 .Data.Pages }}
+        {{ if .Params.link}}
+        <h2><a href="{{ .Params.link }}">{{ .Title }}</a></h2>
+        <small>{{ .Date.Format "2 of January, 2006" }} | <a href="{{ .Permalink }}">♠</a> </small>
+        
+        {{ else if not .Title }}
+           <small class="micro"><a href="{{ .Permalink }}">{{ .Date.Format "2 of January, 2006" }}</a></small>
+       
+        {{ else }}
+          <h2 class="non-link"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <small>{{ .Date.Format "2 of January, 2006" }} </small>
+        {{ end }}
+        {{ .Content }}
+        <hr style="margin-left:calc(20%); margin-right:calc(20%); ">
+  {{ end }}
+    </article>
+    {{ partial "footer.html" . }}
+</body>
+</html>

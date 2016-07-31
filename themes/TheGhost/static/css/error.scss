@@ -1,0 +1,81 @@
+/* IMPORTED FONTS!!! OOOH SHINYYY */
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+    font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+    font-size: 15px;
+    background-color: #33495f;
+    color: #f9f9f9;
+ }
+ 
+
+ /* While some of you may see h1 to h6 tags as simply ways to resize elements, I see them as opportunities. Ways to style, ways to resize, ways to refine beyond what you see. Those of you who don't specialize your h1-h6 tags are missing out */
+
+h1 {
+    color: #030303;
+}
+
+h2 {
+    color: #f7f6ee;
+    font-family: 'Raleway', sans-serif;
+} 
+
+
+h4 {
+    color:  #4d4d4d;
+    font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+    font-size: 16px;
+}
+
+h5 {
+    color: #C0C0C0;
+    font-family: 'Raleway', sans-serif;
+}
+
+blockquote {
+background: transparent;
+font: sans-serif;
+color: darkslategray;
+  border-left: 2px solid #000;
+  margin: 1.5em 10px;
+  padding: 0.5em 5px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+  display: inline;
+}
+
+a {
+    color: silver;
+	text-decoration: dotted;
+     transition: color 0.3s ease;
+    -webkit-transision: color 0.3s ease;
+    -moz-transision: color 0.3s ease;
+}
+
+a:hover{
+	font-size: 1em;
+	color: orange;
+    background-color: #f8f8f8;
+     transition: color 0.3s ease;
+    -webkit-transision: color 0.3s ease;
+    -moz-transision: color 0.3s ease;
+}
+
+/*  See, theres a dragon right here.
+
+        .==.        .==.
+       //`^\\      //^`\\
+      // ^ ^\(\__/)/^ ^^\\
+     //^ ^^ ^/6  6\ ^^ ^ \\
+    //^ ^^ ^/( .. )\^ ^ ^ \\
+   // ^^ ^/\| v""v |/\^ ^ ^\\
+   ^^/\/ /  `~~`  \ \/\^ ^\\
+  -----------------------------
+
+Don't worry, hes friendly. I call him Squishy
+
+
+*/

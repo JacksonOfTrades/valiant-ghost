@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import "http://fonts.googleapis.com/css?family=Raleway:300";
+@import "http://fonts.googleapis.com/css?family=Source+Sans+Pro";
+@import "http://fonts.googleapis.com/css?family=Roboto+Slab";
+@import "http://fonts.googleapis.com/css?family=Roboto";
+body {
+  font-family: 'Roboto', 'Source Sans Pro', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 11px;
+  background-color: #f9f9f9;
+  color: #030303; }
+
+h2 {
+  color: #f7f6ee;
+  font-family: 'Raleway', 'Roboto', 'Source Sans Pro', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+
+h3 a {
+  font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #33495f !important;
+  text-decoration: none; }
+
+h3 a:linked {
+  font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #030303 !important;
+  text-decoration: none; }
+
+h2 a {
+  text-decoration: none; }
+
+h5 a {
+  text-decoration: none; }
+
+h5 {
+  color: #c0c0c0;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+
+li a {
+  text-decoration: none; }
+
+small {
+  color: #4d4d4d;
+  font-family: "Roboto Slab", Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+  font-size: 16px; }
+
+small a {
+  color: #33495f;
+  text-decoration: none; }
+
+blockquote {
+  background: transparent;
+  font-family: 'Roboto', 'Source Sans Pro', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
+  color: #ededed;
+  border-left: 0px solid #030303;
+  margin: 1.5em 10px;
+  padding: 0.5em 5px; }
+
+blockquote p {
+  display: inline; }
+
+a {
+  color: #33495f;
+  text-decoration: underline;
+  transition: color 0.3s ease; }
+
+a:hover {
+  font-size: 1em;
+  color: #828f9d;
+  transition: color 0.3s ease; }
+
+hr {
+  color: #ddd; }
+
+#site-header {
+  width: 100%;
+  padding: 75px 10px 10px;
+  text-align: center;
+  background-color: #33495f;
+  margin: -49px auto 0px auto !important;
+  height: 186px; }
+
+#site-header h2 {
+  text-decoration: none; }
+
+#site-header h5 {
+  text-decoration: none; }
+
+::selection {
+  background: #272822;
+  color: #f9f9f9; }
+
+li {
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+
+li a {
+  text-decoration: none; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem; }
+  .footer p.footer {
+    color: #272822;
+    font-size: 12px; }
+  .footer .links a {
+    list-style: none;
+    font-weight: bold;
+    color: #030303;
+    padding: 3rem 0 2rem;
+    margin: 0; }
+    .footer .links a::after {
+      content: "ÔÇó";
+      padding: 0 0.4rem 0 0.8rem; }
+    .footer .links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+
+/*# sourceMappingURL=app.css.map */

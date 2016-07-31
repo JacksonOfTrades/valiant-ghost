@@ -1,0 +1,30 @@
+@import "GhostInTheScreenv2.css.scss";
+
+body, article, small{
+  font-family: georgia;
+  background-color: $sig;
+  color: $white;
+}
+
+p{
+  color: white;
+}
+
+h3{
+  color: #C0C0C0;
+  font-size: 30px;
+  font-weight: bolder;
+  
+}
+
+h6{
+  color: #C0C0C0;
+}
+
+p{
+  font-size: 20px;
+}
+
+img{
+  margin-left: 20px;
+}

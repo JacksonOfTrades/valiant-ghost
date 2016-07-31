@@ -1,0 +1,13 @@
+---
+baseurl: "https://valiantghost.com"
+title: "Valiant Ghost"
+author: "Jackson Wyndow"
+theme: "TheGhost"
+languageCode: "en-us"
+footnotereturnlinkcontents: "↩"
+permalinks:
+        articles: /:year/:month/:title/
+params:
+  author:
+    name: "Jackson Wyndow"
+...

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "header.html" . }}
+<body>
+       <a href="/">
+    <header>
+        <h1>Valiant Ghost</h1>
+    </header></a> 
+     {{ partial "sidebar.html" . }}
+    <article>
+        {{ range .Site.Pages }}
+     
+        {{ if .Params.best }}
+          <h2 class="non-link"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <small>{{ .Date.Format "2 of January, 2006" }} </small>
+           <hr style="margin-left:calc(20%); margin-right:calc(20%); ">
+        {{ end }}
+  {{ end }}
+    </article>
+    {{ partial "footer.html" . }}
+</body>
+</html>
